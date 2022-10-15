@@ -22,13 +22,13 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "RecMonoNyx Nerd Font"
+(setq doom-font (font-spec :family "RecMonoNyx"
                            :size 16
                            :weight 'medium)
       doom-variable-pitch-font (font-spec :family "Cantarell"
                                           :size 16
                                           :weight 'Regular)
-      doom-big-font (font-spec :family "RecMonoNyx Nerd Font"
+      doom-big-font (font-spec :family "RecMonoNyx"
                                :size 36
                                :weight 'medium))
 ;;
