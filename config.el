@@ -163,5 +163,7 @@
 (setq browse-url-browser-function 'w3m-browse-url)
 ;; Enable images in w3m
 (setq w3m-default-display-inline-images t)
-
+;; Use an image splash on the dashboard
+(setq fancy-splash-image (concat doom-user-dir "splashes/kragelund-circle.png"))
+;; Use Catppuccin Mocha theme
 (load-theme 'catppuccin-mocha t)
