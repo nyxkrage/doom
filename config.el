@@ -163,3 +163,5 @@
 (setq browse-url-browser-function 'w3m-browse-url)
 ;; Enable images in w3m
 (setq w3m-default-display-inline-images t)
+
+(load-theme 'catppuccin-mocha t)
